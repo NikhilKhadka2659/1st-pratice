@@ -1,0 +1,285 @@
+*{
+  margin:0;
+  padding: 0;
+  font-family:Arial, Helvetica, sans-serif
+}
+.banner{
+  width: 100%;
+  height: 100vh;
+  background-image: url(images/image.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.navbar{
+  width: 90%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo{
+  width: 150px;
+  cursor: pointer;
+
+}
+.navbar ul li
+ {
+  list-style: none;
+  display: inline-block;
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  padding: 25px;
+  font-weight: 600;
+}
+.paragraph{
+  font-size: 34px;
+  color:#FFBB02;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 100px;
+}
+.title{
+  font-size: 54px;
+  color: #FFBB02;
+  font-weight: 800;
+  text-align: center;
+  padding:0 100px 0 ;
+  text-transform: capitalize;
+ 
+}
+.about-us{
+  height: auto;
+  width: 100%;
+  padding: 100px 0;
+  background:rgb(255, 255, 255) ;
+}
+.about-pic{
+  height: 500px;
+  width: auto;
+  
+}
+.about{
+  width: 1240px;
+  max-width: 90%;
+  margin:0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+
+}
+.text{
+  width: 50%;
+}
+.text h2{
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  letter-spacing: normal;
+  color: #111;
+  text-transform: uppercase;
+
+
+
+}
+.text p{
+  font-size: 16px;
+  color: #8a8a8a;
+  margin-bottom: 15px;
+  line-height: 25px;
+}
+.button {
+  background-color: #FFBB02;
+  color: #f9f9f9;
+  border-radius: 6px;
+  text-align: center;
+  padding: 13px 30px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.rooms-section{
+  width: 100%;
+  padding: 100px 0;
+  background-image: url(images/rooms.jpg);
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+}
+.rooms {
+  padding-top: 450px;
+  width: 80%;
+  max-width: 95%;
+  padding: 150px;
+  
+
+
+}
+.rooms h3{
+  color: #f9f9f9;
+  font-size: 26px;
+  text-align: left;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.rooms p {
+  color: #f9f9f9;
+  font-size: 17px;
+  text-align: start;
+  margin-bottom: 25px;
+  letter-spacing: 0.5px;
+
+}
+.resturant-reception{
+  height: auto;
+  width: 100%;
+  padding: 100px 0;
+  background:#d6d6d6;
+}
+.resturant {
+  width: 1240px;
+  margin:0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+}
+.text-resturant{
+  padding: 50px;  
+}
+.text-resturant h2{
+  font-size: 24px;
+  color: #111;
+  text-align: center;
+  margin-bottom: 50px;
+
+}
+.text-resturant p{
+  font-size: 18px;
+  color:#111;
+  text-align: start;
+  
+}
+.things-to-do-section{
+  height: auto;
+  margin: 100px 0;
+  align-items: center;
+}
+.things-to-do{
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  padding: 0px 100px;
+  
+  
+}
+.things-to-do h1{
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: 600;
+  text-transform: uppercase;
+
+}
+.images-things{
+  display: flex;
+  height: 75vh;
+  column-gap: 25px;
+}
+.tharu-program {
+  background-image: url(images/tharuimage.png);
+  width: 33.33%;
+  background-position: center;
+  height: 75vh;
+  border-radius: 15px;
+  align-items: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.movie-swimming {
+  width: 33.33%;
+  height: 75vh;
+  border-radius: 15px;
+  align-items: baseline;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  row-gap: 25px;
+}
+.movie-theatre {
+  background-image: url(images/3dmovie.png);
+  width: 100%;
+  background-position: center;
+  height: 50%;
+  border-radius: 15px;
+  align-items: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.swimming-pool{
+  background-image: url(images/swimming\ Pool.png);
+  width: 100%;
+  background-position: center;
+  height: 50%;
+  border-radius: 15px;
+  align-items: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.tennis-safari{
+  width: 33.33%;
+  height: 75vh;
+  border-radius: 15px;
+  align-items: baseline;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  row-gap: 25px;
+}
+.tennis-court {
+  background-image: url(images/tennis.png);
+  width: 100%;
+  background-position: center;
+  height: 50%;
+  border-radius: 15px;
+  align-items: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.jungle-safari{
+  background-image: url(images/jungle.png);
+  width: 100%;
+  background-position: center;
+  height: 50%;
+  border-radius: 15px;
+  align-items: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}

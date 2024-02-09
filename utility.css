@@ -1,0 +1,31 @@
+.flex{
+  display: flex;
+}
+.justify-content{
+  justify-content: center;
+}
+.align-items{
+  align-items: center;
+}
+.rowg-1{
+  row-gap: 10px;
+}
+.flex-direction{
+  flex-direction: column;
+}
+.box-title h3{
+  background-color: #6B9773;
+  color: #FFBB02;
+  font-size: 24px;
+  padding: 10px 50px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+.box-content p{
+  padding: 0px 25px;
+  font-size: 16px;
+  color: #f9f9f9;
+  letter-spacing:0.5px;
+  text-align:left ;
+  line-height: 25px;
+}
